@@ -1,0 +1,32 @@
+{
+  "name": "capstone-one-fitness",
+  "version": "1.0.0",
+  "description": "It's a responsive Fitness Training Website.",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^6.2.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RitobrotoMukherjee/capstone-one-fitness.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RitobrotoMukherjee/capstone-one-fitness/issues"
+  },
+  "homepage": "https://github.com/RitobrotoMukherjee/capstone-one-fitness#readme"
+}
