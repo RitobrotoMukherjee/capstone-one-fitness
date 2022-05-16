@@ -23,6 +23,9 @@ It's a responsive Fitness Trainer Website
 
 - Run ``` npm install ```
 
+## Page Presentation video
+- 
+
 ## Authors
 
 👤 **Ritobroto Mukherjee**
@@ -32,9 +35,12 @@ It's a responsive Fitness Trainer Website
 - Twitter: [@RitobrotoM3](https://twitter.com/RitobrotoM3)
 - LinkedIn: [Ritobroto Mukherjee](https://www.linkedin.com/in/ritobroto-mukherjee-519148ba/)
 
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
+- Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -43,6 +49,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse: [View Site](https://www.microverse.org/)
+- Hat tip to [Cindy Shin](https://www.behance.net/adagio07) whose original design idea was used.
 
 ## Code Reviewers
 
