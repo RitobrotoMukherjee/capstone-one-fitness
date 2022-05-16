@@ -94,10 +94,11 @@ a {
 .intro-header {
     font-family: cocogoose, sans-serif;
     margin: 0;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
     background-image: url(../assets/background/heading-background.jpg);
     background-size: 150px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .intro-description {
