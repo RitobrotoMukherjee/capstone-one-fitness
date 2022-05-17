@@ -5,7 +5,7 @@ It's a responsive Fitness Trainer Website
 
 ## GitHub Pages Link
 
-- [@View Live](https://)
+- [@View Live](https://ritobrotomukherjee.github.io/capstone-one-fitness/pages)
 
 ## Built With
 
