@@ -7,35 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Trainer:Your Fitness Trainer</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/63a7fc887b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <div class="social-link">
             <ul class="links">
-                <li class="link-items"></li>
-                <li class="link-items"></li>
-                <li class="link-items"></li>
+                <li class="link-items"><i class="fa-brands fa-facebook"></i></li>
+                <li class="link-items"><i class="fa-brands fa-twitter"></i></li>
+                <li class="link-items">Logout</li>
             </ul>
         </div>
         <nav id="mobile-nav">
-            <div class="nav-items hamburger-btn toggle-mobile-menu">
+            <div class="hamburger-btn toggle-mobile-menu">
                 <div class="burger-line"></div>
                 <div class="burger-line"></div>
                 <div class="burger-line"></div>
             </div>
         </nav>
         <nav id="desktop-nav">
-            <div class="nav-items logo">
-                <img src="../assets/images/desktop-logo.png" alt="logo">
+            <div class="nav-items logo-flex text-center">
+                <a href="./index.html">
+                    <img class="logo" src="../assets/icons/logo.jpg" alt="logo">
+                </a>
             </div>
-            <div class="nav-items">
+            <div class="nav-items menu-flex">
                 <ul class="desktop-menu">
-                    <li class="desktop-menu-items">About</li>
-                    <li class="desktop-menu-items">Program</li>
-                    <li class="desktop-menu-items">Join</li>
-                    <li class="desktop-menu-items">Press</li>
-                    <li class="desktop-menu-items">Contact</li>
+                    <li class="desktop-menu-items">
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li class="desktop-menu-items">
+                        <a href="#program">Program</a>
+                    </li>
+                    <li class="desktop-menu-items">
+                        <a href="#trainer-section">Trainers</a>
+                    </li>
+                    <li class="desktop-menu-items">
+                       <a href="#partner">Partners</a>
+                    </li>
+                    <li class="desktop-menu-items">
+                        <a href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -188,15 +201,16 @@
             </ul>
         </section>
     </main>
-    <footer class="text-center">
+    <footer id="contact" class="text-center">
         <div class="footer-items">
-            <img src="../assets/icons/logo.jpg" alt="logo">
+            <img class="logo" src="../assets/icons/logo.jpg" alt="logo">
         </div>
         <div class="footer-items">
             <p class="about-trainer copyright-paragraph">
                 Copyright &#169; <span id="current-year"></span> All rights reserved.
                 <br>
-                Made with ❤️ by <a href="https://ritobrotomukherjee.github.io/Work-Portfolio/" rel="noopener" target="_blank">Ritobroto Mukherjee</a>
+                Made with ❤️ by <a href="https://ritobrotomukherjee.github.io/Work-Portfolio/" rel="noopener"
+                    target="_blank">Ritobroto Mukherjee</a>
             </p>
         </div>
     </footer>
