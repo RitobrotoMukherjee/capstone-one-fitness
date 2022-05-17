@@ -10,20 +10,45 @@
 </head>
 <body>
     <header>
-        <div class="social-link">
-            <ul class="links">
-                <li class="link-items"><i class="fa-brands fa-facebook"></i></li>
-                <li class="link-items"><i class="fa-brands fa-twitter"></i></li>
-                <li class="link-items">Logout</li>
-            </ul>
-        </div>
         <nav id="mobile-nav">
-            <div class="hamburger-btn toggle-mobile-menu">
+            <div id="hamburger-btn" class="hamburger-btn toggle-mobile-menu">
                 <div class="burger-line"></div>
                 <div class="burger-line"></div>
                 <div class="burger-line"></div>
             </div>
+            <div id="mobile-menu-bg" class="mobile-menu-bg display-none">
+                <ul class="mobile-menu">
+                    <li class="close-button-list-item">
+                        <div class="close-menu toggle-mobile-menu" >
+                            <img src="../assets/icons/Icon.png" alt="close menu button">
+                        </div>
+                    </li>
+                    <li class="mobile-menu-items toggle-mobile-menu">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="mobile-menu-items toggle-mobile-menu">
+                        <a href="./index.html#program">Program</a>
+                    </li>
+                    <li class="mobile-menu-items toggle-mobile-menu">
+                        <a href="./index.html#trainer-section">Trainers</a>
+                    </li>
+                    <li class="mobile-menu-items toggle-mobile-menu">
+                        <a href="./index.html#partner">Partners</a>
+                    </li>
+                    <li class="mobile-menu-items toggle-mobile-menu">
+                        <a href="./index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
+        
+        <div class="social-link">
+            <ul class="links">
+                <li class="link-items"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="link-items"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="link-items"><a href="#">Logout</a></li>
+            </ul>
+        </div>
         <nav id="desktop-nav">
             <div class="nav-items logo-flex text-center">
                 <a href="./index.html">
@@ -33,7 +58,7 @@
             <div class="nav-items menu-flex">
                 <ul class="desktop-menu">
                     <li class="desktop-menu-items">
-                        <a href="./index.html">Home</a>
+                        <a href="./about.html">About</a>
                     </li>
                     <li class="desktop-menu-items">
                         <a href="./index.html#program">Program</a>
@@ -45,7 +70,7 @@
                        <a href="./index.html#partner">Partners</a>
                     </li>
                     <li class="desktop-menu-items">
-                        <a href="#contact">Contact</a>
+                        <a href="./index.html#contact">Contact</a>
                     </li>
                 </ul>
             </div>
