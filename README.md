@@ -5,11 +5,14 @@ It's a responsive Fitness Trainer Website
 
 ## Screenshots
 - **Desktop Home Screen**
+
 ![Desktop Home Screen](./assets/screenshots/desktop-screen.png)
 - **Mobile Home Screen**
-![Mobile Home Screen](./assets/screenshots/mobile-home.png)
+
+ ![Mobile Home Screen](./assets/screenshots/mobile-home.png)
 - **Mobile Menu**
-![Mobile Menu](./assets/screenshots/mobile-menu.png)
+
+ ![Mobile Menu](./assets/screenshots/mobile-menu.png)
 
 ## GitHub Pages Link
 
