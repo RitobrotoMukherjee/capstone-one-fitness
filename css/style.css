@@ -7,13 +7,14 @@
   --black: #000;
   --texts: #d3d3d3;
   --grey-p: #5e5e5e;
+  --body-bg: #f7f7f7;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'lato', sans-serif;
-  background: #f7f7f7;
+  background: var(--body-bg);
   scroll-behavior: smooth;
 }
 
@@ -134,7 +135,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  margin-bottom: 20px;
 }
 
 .main-section-about {
@@ -420,6 +420,7 @@ footer {
   align-items: center;
   padding: 20px;
   min-height: 100px;
+  background: var(--white);
 }
 
 .footer-items {
@@ -582,5 +583,16 @@ footer {
 
   .about-section-paragraphs {
     width: 50%;
+  }
+
+  footer {
+    background: var(--body-bg);
+  }
+  .about-footer {
+    background: var(--black);
+    color: var(--white);
+  }
+  .about-footer a {
+    color: var(--white);
   }
 }
