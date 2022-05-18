@@ -4,10 +4,11 @@
 It's a responsive Fitness Trainer Website
 
 ## Screenshots
-- The screenshots of desktop and mobile screen as follows
-
+- **Desktop Home Screen**
 ![Desktop Home Screen](./assets/screenshots/desktop-screen.png)
+- **Mobile Home Screen**
 ![Mobile Home Screen](./assets/screenshots/mobile-home.png)
+- **Mobile Menu**
 ![Mobile Menu](./assets/screenshots/mobile-menu.png)
 
 ## GitHub Pages Link
