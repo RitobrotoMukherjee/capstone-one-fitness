@@ -588,10 +588,12 @@ footer {
   footer {
     background: var(--body-bg);
   }
+
   .about-footer {
     background: var(--black);
     color: var(--white);
   }
+
   .about-footer a {
     color: var(--white);
   }
