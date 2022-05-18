@@ -150,7 +150,7 @@ a:hover {
 }
 
 .main-about {
-  padding: 6px 20px;
+  padding: 20px 13%;
 }
 
 .intro-paragraph {
@@ -191,6 +191,11 @@ a:hover {
   font-size: 25px;
 }
 
+.sub-heading-about {
+  color: var(--white);
+  font-size: 25px;
+}
+
 .about-us-paragraph {
   font-size: 16px;
   line-height: 2;
@@ -199,13 +204,40 @@ a:hover {
   color: var(--grey-p);
 }
 
+.about-section-paragraphs {
+  font-size: 13px;
+  line-height: 1;
+  color: var(--black);
+  padding: 12px;
+  margin-bottom: 15px;
+  width: 90%;
+}
+
+.session-main-paraghraph {
+  font-size: 15px;
+}
+
+.session-paragraphs-card {
+  font-size: 13px;
+  line-height: 1;
+  color: var(--white);
+  width: 90%;
+}
+
 .about-us-paragraph-holder {
   background: #fff;
   border: 2px solid var(--texts);
-  box-shadow: rgba(255, 255, 255, 0.916);
 }
 
-
+.about-secondary-section {
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--texts);
+  border-bottom: 1px solid var(--texts);
+}
 
 .program-section {
   background: url(../assets/background/program-section-bg.png);
@@ -351,6 +383,37 @@ a:hover {
   width: 85px;
 }
 
+.sessions-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.session-container-items {
+  flex: 0 1 auto;
+  margin: 15px;
+  height: 100%;
+}
+
+.session-one {
+  background: url(../assets/images/sessions/session-one.jpg);
+  background-size: cover;
+}
+
+.session-two {
+  background: url(../assets/images/sessions/session-two.jpg);
+  background-size: cover;
+}
+
+.session-text-holder {
+  background: rgba(248, 8, 8, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -367,6 +430,10 @@ footer {
   width: 95px;
   border-radius: 4px;
   border: 1px solid var(--black);
+}
+
+.logo-about {
+  width: 150px;
 }
 
 .copyright-paragraph {
@@ -442,9 +509,8 @@ footer {
     margin-bottom: 90px;
   }
 
-  .main-about {
-    padding: 0 13%;
-    margin-bottom: 90px;
+  .sessions-main-container {
+    flex-direction: row;
   }
 
   .intro-header {
@@ -512,5 +578,9 @@ footer {
 
   .partner-list-items {
     margin: 15px 21px;
+  }
+
+  .about-section-paragraphs {
+    width: 50%;
   }
 }

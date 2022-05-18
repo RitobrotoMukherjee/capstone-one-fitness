@@ -3,6 +3,13 @@
 # Fitness Trainer
 It's a responsive Fitness Trainer Website
 
+## Screenshots
+- The screenshots of desktop and mobile screen as follows
+
+![Desktop Home Screen](./assets/screenshots/desktop-screen.png)
+![Mobile Home Screen](./assets/screenshots/mobile-home.png)
+![Mobile Menu](./assets/screenshots/mobile-menu.png)
+
 ## GitHub Pages Link
 
 - [@View Live](https://ritobrotomukherjee.github.io/capstone-one-fitness/pages)
