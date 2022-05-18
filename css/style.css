@@ -6,6 +6,7 @@
   --white: #fff;
   --black: #000;
   --texts: #d3d3d3;
+  --grey-p: #5e5e5e;
 }
 
 body {
@@ -136,8 +137,20 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.main-section-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .main-home {
   padding: 0 20px;
+}
+
+.main-about {
+  padding: 6px 20px;
 }
 
 .intro-paragraph {
@@ -170,13 +183,29 @@ a:hover {
 
 .desc-white-border {
   padding: 25px;
-  border: 3px solid #fff;
+  border: 3px solid var(--white);
 }
 
 .sub-heading {
   color: #5e5e5e;
   font-size: 25px;
 }
+
+.about-us-paragraph {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  padding: 15px;
+  color: var(--grey-p);
+}
+
+.about-us-paragraph-holder {
+  background: #fff;
+  border: 2px solid var(--texts);
+  box-shadow: rgba(255, 255, 255, 0.916);
+}
+
+
 
 .program-section {
   background: url(../assets/background/program-section-bg.png);
@@ -413,11 +442,20 @@ footer {
     margin-bottom: 90px;
   }
 
+  .main-about {
+    padding: 0 13%;
+    margin-bottom: 90px;
+  }
+
   .intro-header {
     font-size: 58px;
     line-height: 60px;
     letter-spacing: 1px;
     font-weight: 900;
+  }
+
+  .about-heading {
+    margin-bottom: 30px;
   }
 
   .intro-description {
