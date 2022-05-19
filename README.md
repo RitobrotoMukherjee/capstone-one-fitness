@@ -14,6 +14,11 @@ It's a responsive Fitness Trainer Website
 
  ![Mobile Menu](./assets/screenshots/mobile-menu.png)
 
+## Project Presentation Video
+
+- Want a video presentation of the project? 
+- **Click the - [@video link](https://www.loom.com/share/b6aed7d83a5a4a2892c30f3dcc730427)**
+
 ## GitHub Pages Link
 
 - [@View Live](https://ritobrotomukherjee.github.io/capstone-one-fitness/pages)
@@ -33,9 +38,6 @@ It's a responsive Fitness Trainer Website
 ## Install
 
 - Run ``` npm install ```
-
-## Page Presentation video
-- 
 
 ## Authors
 
@@ -64,4 +66,4 @@ Give a ⭐️ if you like this project!
 
 ## Code Reviewers
 
-- #
+- Olipliche B.F. Mavoungou Paka [@OLIPLICHE](https://github.com/OLIPLICHE)
